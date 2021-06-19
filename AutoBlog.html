@@ -27,10 +27,18 @@
 	margin: 15px;
 	padding: 15px;
 }
-.menu-bar ul li a
-{
-	text-decoration: none;
-	color: #fff;
+.menu-bar ul li ::after{
+
+	    color: #fff;
+		text-decoration: none;
+		display: block;
+		content: '';
+		margin: auto;
+		}
+.menu-bar ul li a::after{
+
+	    color: #fff;
+		text-decoration: none;
 		}
 	.click{
 		background-color: #99ff99;
@@ -39,6 +47,8 @@
 		text-decoration: none;
 		display: inline;
 		padding: 15px 25px;
+
+
 	}
 	h1{
 		text-align: center;
@@ -52,13 +62,13 @@
 	
 	<div class="menu-bar">
 	<ul>
+		<li><a href="index.html">Home</a></li>
 		
 		<li><a href="#">news</a></li>
-		<li><a href="#">Services</a></li>
-		<li><a href="#">About us</a></li>
-		<div class="click">
-		<li><a href="index.html" color="">click to go back<br> to home</a></li>
-	</div>
+		<li><a href="services.html">Services</a></li>
+		<li><a href="aboutus.html">About us</a></li>
+		
+	
 		
 		
 	</ul>
